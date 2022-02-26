@@ -10,6 +10,8 @@ export const Section01 = () => {
   return (
     <section className={styles.section}> 
       <span>{String(bool)}</span>
+      <br />
+      {bool ? <span>olaaaa</span> : null}
     </section>
   );
 }
